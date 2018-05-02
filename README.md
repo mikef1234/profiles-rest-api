@@ -18,4 +18,8 @@ login into the email/password you entered in before
 
 APIView defines function uses standard http methods, GET, PosT, PUT, PATCH, Delete and the viewset. Gives you the most control over the logic. full control over logic. PRocessing files and rendering a synchronous response. Calling external API's. Access local files or data
 
-Viewset: 
+
+go to 127.0.0.1:8080/api/hello-view
+
+Added Name: 
+input name and it will display as a post
