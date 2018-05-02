@@ -23,6 +23,7 @@ list, create, retrieve, update, partial update, destroy.  Takes care a lot of ty
 need a simple CRUD interface to your database. quick and simple API. need little to no customization on the logic. Working with standard data structures.
 
 go to 127.0.0.1:8080/api/hello-view
-
+ 127.0.0.1:8080/api/profile
+127.0.0.1:8080/api/profile/2
 Added Name: 
 input name and it will display as a post

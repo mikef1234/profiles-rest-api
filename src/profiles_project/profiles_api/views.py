@@ -4,6 +4,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from . import serializers
+from . import models
 
 
 # Create your views here.
@@ -78,18 +79,22 @@ class HelloViewSet(viewsets.ViewSet):
 
     def retrieve(self, request, pk=None):
         '''Handles getting an object by its ID'''
-		return Response({'http_method': 'GET'})
-        
+            return Response({'http_method': 'GET'})
 
     def update(self, request, pk=None):
-    	'''handles updating an object'''
-    	return Response({'http_method': 'PUT'})
+        '''handles updating an object'''
+        return Response({'http_method': 'PUT'})
 
     def partial_update(self, request, pk=None):
-    	'''handles updating part of an object'''
-    	return Response({'http_method': 'PATCH'})
-
+        '''handles updating part of an object'''
+        return Response({'http_method': 'PATCH'})
 
     def destroy(self, request, pk=None):
-    	'''handles removing an object'''
-    	return Response({'http_method': 'DELETE'})
+        '''handles removing an object'''
+        return Response({'http_method': 'DELETE'})
+
+
+class UserProfileViewSet(viewsets.ModelViewSet):
+    '''handles creating, creating, and updating profiles'''
+        serializer_class = serializers.UserProfileSerializer
+        queryset = models.UserProfile.objects.all()
