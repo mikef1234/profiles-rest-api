@@ -27,3 +27,8 @@ go to 127.0.0.1:8080/api/hello-view
 127.0.0.1:8080/api/profile/2
 Added Name: 
 input name and it will display as a post
+
+go to api/profile, and create new user(Email, name, password)
+api/profile and click filters. Search for name
+
+
