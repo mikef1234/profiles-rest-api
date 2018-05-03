@@ -31,4 +31,13 @@ input name and it will display as a post
 go to api/profile, and create new user(Email, name, password)
 api/profile and click filters. Search for name
 
+runserver again if needed
 
+go to /api/ 
+login api is added, and click link
+type in your email and password. It will come
+back with a token number. Copy that token number.
+Add Token to the Mod Header next to the word
+Token 
+go to api/profile/1/ and update content
+Turn on off the authorization check box to test
