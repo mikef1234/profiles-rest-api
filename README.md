@@ -41,3 +41,8 @@ Add Token to the Mod Header next to the word
 Token 
 go to api/profile/1/ and update content
 Turn on off the authorization check box to test
+
+#Create and run model migration
+go to vagrant server and/or run
+python manage.py makemigrations
+python manage.py migrate
