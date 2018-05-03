@@ -46,3 +46,6 @@ Turn on off the authorization check box to test
 go to vagrant server and/or run
 python manage.py makemigrations
 python manage.py migrate
+
+api/feed make a Status text for a created_on 
+after pressing post
