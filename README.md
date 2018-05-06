@@ -49,3 +49,31 @@ python manage.py migrate
 
 api/feed make a Status text for a created_on 
 after pressing post
+Video 57 or 58? for new token
+
+#Pushing Project to Github
+ssh-keygen
+enter, enter
+copy the public key location path
+go to the location path on sublime
+go to github, and then settings, SSH and GPG Keys. New SSH.
+Put a title, and paste the contents from the id_rsa.pub file
+
+
+
+JOBBBB
+onet_jo_similarity.py for Client Pipeline
+Future of work
+future of work
+project or 
+data reprocessing, take a look- taking model results and manipulating the clients information, jobs/etc
+proprietary folder - matches the jobs, doing the analyzes, steps to get to model output, modeling scripts
+
+onet_jo_similarity.py for Client Pipeline, and onet_keyword_classification needs to cleaned up
+
+from api.models import *
+
+onet_jobs is a pickle file, that contains a massive python object for all onet jobs and attributes and 
+values. Usable format compared to DB or mirror. Possible convert table in POSTGRES
+
+Reference each clients schema...schema = "client"
